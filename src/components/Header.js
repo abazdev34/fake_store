@@ -50,14 +50,14 @@ const Header = () => {
             onChange={handleSearch}
             className="header--inp"
             type="text"
-            placeholder="искат"
+            placeholder="искать"
           />
 
 					<NavLink to={"/image_changer"}>
 						Image Changer
 					</NavLink>
           <div className="nav">
-            <NavLink to={"/liket"}>
+            <NavLink to={"/liked"}>
               <FcLike />
             </NavLink>
             <div className="bts">

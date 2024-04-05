@@ -26,13 +26,12 @@ function ImageChanger() {
 		setCurrImg(e)
 	}
 
-	
 	return (
 		<div className='container'>
 			<div className='row'>
 				<div className='image--changer'>
 					<div className='image--changer__main'>
-						<img src={photo.el[curImg]} alt='' />
+						<img className='zoom-image' src={photo.el[curImg]} alt='' />
 
 						<button
 							className='btnPrev btn btn-secondary '
@@ -55,7 +54,6 @@ function ImageChanger() {
 									onMouseOver={() => {
 										handleHoverChanger(idx)
 									}}
-								
 									src={el}
 									alt=''
 									key={el.id}

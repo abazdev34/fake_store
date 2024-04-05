@@ -1,0 +1,69 @@
+#header{
+  h3{
+    color: white;
+  }
+  a{
+    color: white;
+    font-size: 25px;
+  }
+  width: 100%;
+  height: 80px;
+background:url("../Redux/img/High_resolution_wallpaper_background_ID_77700360892.webp")no-repeat center/cover;
+.header{
+  p{
+    color: white;
+  }
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &--inp{
+    margin-top: 10px;
+    padding: 0 15px;
+    outline: none;
+    width: 550px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+   
+   .hom{
+    color: aliceblue;
+   }
+  }
+  .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    .bts{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      .bas{
+        position: relative;
+        font-size: 25px;
+        color: aqua;
+      }
+      .sena{
+        position: absolute;
+        right: 87px;
+        top:16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 100px;
+        background: rgb(255, 0, 0);
+
+       
+      }
+      .hen{
+        width: 50px;
+        height: 30px;
+        background: white;
+      }
+    }
+  }
+}
+}

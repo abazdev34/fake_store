@@ -25,6 +25,8 @@ function ImageChanger() {
 	const handleHoverChanger = e => {
 		setCurrImg(e)
 	}
+
+	
 	return (
 		<div className='container'>
 			<div className='row'>
@@ -50,9 +52,10 @@ function ImageChanger() {
 						{photo.el.map((el, idx) => (
 							<div className='images--item'>
 								<img
-									onMouseOver={e => {
+									onMouseOver={() => {
 										handleHoverChanger(idx)
 									}}
+								
 									src={el}
 									alt=''
 									key={el.id}

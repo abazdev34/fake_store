@@ -8,15 +8,7 @@ const Basket = () => {
   const dispatch = useDispatch();
 
   const totalSum = basket.reduce((acc, el) => {
-<<<<<<< HEAD
-    console.log(totalSum > 2000 ? totalSum * 10 / 100 : totalSum )
-    
-    
     return acc + el.price * el.guantity;
-
-=======
-    return acc + el.price * el.guantity;
->>>>>>> b513a5415fb1416100a0fc424c674dfd3571fc9f
   }, 0);
 
   const totalQty = basket.reduce((acc, el) => {
@@ -42,11 +34,8 @@ const Basket = () => {
 
             <div className="basket-gty">
               <h1>{item.title}</h1>
-<<<<<<< HEAD
-              <h1>{item.price}p</h1>
-=======
+
               <h1>{item.price * item.guantity}p</h1>
->>>>>>> b513a5415fb1416100a0fc424c674dfd3571fc9f
             </div>
             <div className="basket-d">
               <button
@@ -94,11 +83,8 @@ const Basket = () => {
         <div className="opsh">
           <h2>сума</h2>
           <h2>{totalSum} рубль</h2>
-<<<<<<< HEAD
-          <h2>{totalQty } Отовар</h2>
-=======
+
           <h2>{totalQty} Отовар</h2>
->>>>>>> b513a5415fb1416100a0fc424c674dfd3571fc9f
           {totalQty > 0 ? (
             <div className="chek">
               {basket.map((item) => (

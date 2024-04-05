@@ -7,13 +7,9 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
     "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.2",
-=======
-    "react": "^18.2.0",
->>>>>>> b513a5415fb1416100a0fc424c674dfd3571fc9f
     "react-devtools": "^5.0.2",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
@@ -21,18 +17,10 @@
     "react-redux": "^9.1.0",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
-    "react-slick": "^0.30.2",
-    "react-switch": "^7.0.0",
-    "redux": "^5.0.1",
-    "sass": "^1.72.0",
-    "slick-carousel": "^1.8.1",
-=======
     "react-switch": "^7.0.0",
     "redux": "^5.0.1",
     "sass": "^1.72.0",
     "swiper": "^11.1.0",
->>>>>>> b513a5415fb1416100a0fc424c674dfd3571fc9f
     "web-vitals": "^2.1.4"
   },
   "scripts": {

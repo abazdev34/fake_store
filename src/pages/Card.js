@@ -3,11 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { actionTypes } from '../Redux/types';
 import { useNavigate } from 'react-router-dom';
 import toast, { Toaster } from "react-hot-toast";
-<<<<<<< HEAD
 import { FaHeart } from "react-icons/fa";
-=======
-import { CiHeart } from "react-icons/ci";
->>>>>>> b513a5415fb1416100a0fc424c674dfd3571fc9f
 
 const Card = ({product}) => {
 const notify = (str) => toast(str);
@@ -37,10 +33,7 @@ const notify = (str) => toast(str);
               </button>
             ) : (
               <button
-<<<<<<< HEAD
               className='b-add-to-basket'
-=======
->>>>>>> b513a5415fb1416100a0fc424c674dfd3571fc9f
                 onClick={() => {
                   notify("добавлен в корзину");
                   dispatch({
@@ -62,15 +55,9 @@ const notify = (str) => toast(str);
               }}
               className="b-btn3"
             >
-<<<<<<< HEAD
               <FaHeart 
                 style={{
                   color: isliked ? "red" : "" ,
-=======
-              <CiHeart
-                style={{
-                  color: isliked ? "" : "red",
->>>>>>> b513a5415fb1416100a0fc424c674dfd3571fc9f
                   fontSize: "20px",
                   width: "20px",
                 }}

@@ -1,0 +1,46 @@
+.image--changer {
+	display: flex;
+	gap: 10px;
+
+	.image--changer__main {
+		position: relative;
+		max-width: 490px;
+
+		button {
+			position: absolute;
+			opacity: 0.5;
+			transition: 0.5s;
+		}
+
+		button:hover {
+			opacity: 1;
+		}
+
+		.btnPrev {
+			left: 0;
+			top: 230px;
+		}
+		.btnNext {
+			right: 0;
+			top: 230px;
+		}
+	}
+
+	.image--container {
+		display: flex;
+		flex-direction: column;
+		height: 500px; 
+		gap: 20px;
+		overflow: hidden;
+	}
+	.images--item {
+
+		
+		img {
+			width: 100px;
+			height: 100px;
+		}
+
+		object-fit: contain;
+	}
+}

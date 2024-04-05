@@ -1,0 +1,57 @@
+
+
+
+
+
+@import '../src/style.css/header.scss';
+@import '../src/style.css/basket.scss';
+@import '../src/style.css/card.scss';
+
+
+.basket-name{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basket-t{
+  margin: 0 5px;
+  border: 1px solid;
+  width: 80px;
+}
+
+.bloc{
+  background: url(../src)no-repeat center/cover;
+  min-height: 100vh;
+  min-height: 100vh;
+}
+
+.basket-name p{
+  font-size: 5px;
+  font-weight: 300;
+  color:red;
+}
+.basket-d{
+  width: 150px;
+  height: 20px;
+}
+.b-btn1{
+  width: 50px;
+  height: 10px;
+}
+.b-btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 10px;
+}
+.b-btn3{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 10px;
+}
+

@@ -1,0 +1,56 @@
+.bloc{
+  margin-left: 20px;
+  display: flex;
+flex-wrap: wrap;
+}
+.blocs{
+    border: 0.5px solid;
+
+  margin-left: 50px;
+    padding: 10px;
+  margin: 10px;
+    background: white;
+  width: 185px;
+  height: 320px;
+}
+.blocs img{
+  margin-left: 3px;
+  width: 178px;
+  height: 160px;
+}
+h1{
+  font-size: 12px;
+  color: fuchsia;
+}
+h4{
+  font-size: 24px;
+  margin-right: 20px;
+}
+p{
+  font-size: 8px;
+}
+.b-add-to-basket{
+  width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  background:fuchsia;
+  font-size: 8px;
+
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  
+}
+.btn1{
+   width: 150px;
+  height: 30px;
+  border: none;
+  border-radius: 1px;
+  background:rgb(219, 170, 219);
+
+  font-size: 8px;
+}

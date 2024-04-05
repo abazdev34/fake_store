@@ -1,0 +1,162 @@
+
+.like{
+  color: aliceblue;
+  width: 40px;
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+.liked{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 10px;
+}
+.basket{ background: #ecc5c5;
+  .blocb{
+    width: 550px;
+    margin: 50px 0;
+    background:#fff;
+    border-radius: 10px;
+  }
+  .basket-block{
+    margin: 2px 0;
+  }
+  .basket-name h1{
+    color:#6c1414;
+  }
+  .basket-name h4{
+
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  gap: 20px;
+  .nf{
+    margin: 20px;
+     display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+  }
+  .basket-img{
+    width: 100px;
+    height:120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .basket-img img{
+    margin-left: 50px;
+    width: 70px;
+    height: 80px;
+    margin: 0 20px;
+    border-radius: 15px;
+  }
+  .basket-gty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+      margin:  0 10px;
+      color: black;
+      font-size: 15px;
+      font-weight: 200;
+    }
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 150px;
+    height: 120px;
+  }
+  .basket-d{
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    .b-btn2{
+      border-radius: 5px;
+      background: rgb(212, 191, 191);
+      width: 20px;
+      height: 20px;
+    }
+    .b-btn1{
+      border-radius: 5px;
+      background: #ecc5c5;
+      width: 20px;
+      height: 20px;
+    }
+    h2{
+
+    
+      color: rgb(20, 19, 19);
+      font-size: 15px;
+      font-weight: 200;
+      margin: 10px;
+    }
+    margin: 0 20px;
+    width: 100px;
+    height: 120px;
+  }
+  .opsh{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background:#fff ;
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   padding: 0 20px;
+    h2{
+      font-size: 15px;
+      font-weight: 200;
+color:black;
+    }
+  }
+
+}
+
+.b-btn3 {
+  font-size: 25px;
+  font-weight: 700;
+  background: transparent;
+  border: none;
+
+}
+.basket-block{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.abaz{
+icon{
+  color: #FFF;
+}
+  margin:0 5px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 120px;
+
+}
+.chek{
+  padding: 0 20px;
+  margin: 0 5px;
+  border-radius: 10px;
+    width: 350px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background: #FFF;
+  h2{font-size:10px;
+  font-weight: 200;
+  }
+}

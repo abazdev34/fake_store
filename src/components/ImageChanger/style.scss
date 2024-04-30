@@ -45,4 +45,9 @@
 	}
 }
 
+.magnifier-container {
+	width: 500px;
+	height: 500px;
 
+	transition: background-position 0.1s ease;
+}

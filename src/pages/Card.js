@@ -16,7 +16,6 @@ const notify = (str) => toast(str);
     const isAdded=basket.find(el=>el.id===product.id)
     const isliked = liked.find((el) => el.id === product.id);
 
-    console.log(isAdded);
     return (
       <div className="bloc">
       
